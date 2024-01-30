@@ -4,10 +4,10 @@ import Team from "./Team"
 const AFC_West = (props) => {
   return (
     <div>
-      <Team name={"Houston Texans"} city={"Houston"} state={"Texas"} />
-      <Team name={"Jacksonville Jaguars"} city={"Jacksonville"} state={"Florida"} />
-      <Team name={"Indianapolis Colts"} city={"Indianapolis"} state={"Indiana"} />
-      <Team name={"Tennessee Titans"} city={"Nashville"} state={"Tennessee"} />
+      <Team name={"Kansas City Chiefs"} city={"Kansas City"} state={"Missouri"} />
+      <Team name={"Las Vegas Raiders"} city={"Las Vegas"} state={"Nevada"} />
+      <Team name={"Denver Broncos"} city={"Denver"} state={"Colorado"} />
+      <Team name={"Los Angeles Chargers"} city={"Los Angeles"} state={"California"} />
     </div>
   )
 }
