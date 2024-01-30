@@ -1,7 +1,7 @@
 const Team = (props) => {
   return (
     <div>
-      Team: {props.name} From: {props.city}, {props.state}
+      Team: {props.name} <br /> From: {props.city}, {props.state}
     </div>
   )
 }

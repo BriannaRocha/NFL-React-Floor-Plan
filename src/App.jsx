@@ -3,9 +3,12 @@ import NFL from "./NFL"
 
 function App() {
   return (
-    <div>
-      <NFL />
-    </div>
+    <>   
+      <h2 className="header"> American Football</h2>
+      <div>
+      <h2 className="header"> NFL </h2><NFL />
+      </div>
+    </>
   )
 }
 
