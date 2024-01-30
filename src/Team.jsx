@@ -6,4 +6,4 @@ const Team = (props) => {
   )
 }
 
-export default Bedroom
+export default Team

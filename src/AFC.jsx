@@ -6,10 +6,10 @@ import AFC_West from "./AFC_West"
 const AFC = (props) => {
   return (
     <div>
-      <AFC_East />
-      <AFC_North />
-      <AFC_South />
-      <AFC_West />
+      AFC East <AFC_East />
+      AFC North <AFC_North />
+      AFC South <AFC_South />
+      AFC West <AFC_West />
     </div>
   )
 }

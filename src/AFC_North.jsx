@@ -1,16 +1,13 @@
-import Ravens from "./Ravens"
-import Browns from "./Browns"
-import Steelers from "./Steelers"
-import Bengals from "./Bengals"
+import Team from "./Team"
 
 
 const AFC_North = (props) => {
   return (
     <div>
-      <Ravens />
-      <Browns />
-      <Steelers />
-      <Bengals />
+      <Team name={"Baltimore Ravens"} city={"Baltimore"} state={"Maryland"} />
+      <Team name={"Cleveland Browns"} city={"Cleveland"} state={"Ohio"} />
+      <Team name={"Pittsburgh Steelers"} city={"Pittsburgh"} state={"Pennsylvania"} />
+      <Team name={"Cincinnati Bengals"} city={"Cincinnati"} state={"Ohio"} />
     </div>
   )
 }
