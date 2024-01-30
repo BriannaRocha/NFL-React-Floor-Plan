@@ -1,6 +1,6 @@
 const Team = (props) => {
   return (
-    <div>
+    <div className="team">
       Team: {props.name} <br /> From: {props.city}, {props.state}
     </div>
   )

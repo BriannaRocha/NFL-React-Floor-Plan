@@ -31,14 +31,33 @@ body {
   display: flex;
   flex-direction: row;
   align-items: start;
+  background-color: rgba(75, 75, 75, 0.508);
+}
+
+.division-nfc {
+  color: rgb(0, 0, 192);
+  text-shadow: black 1.5px 1.5px 1.5px;
+}
+
+.division-afc {
+  color: rgba(221, 8, 8, 0.911);
+  text-shadow: black 1.5px 1.5px 1.5px;
 }
 
 .nfc {
-  color: darkblue;
-  text-shadow: black 1px 1px 1px;
+  color: rgb(0, 0, 192);
+  text-shadow: black 0.5px 0.5px 0.5px;
+  background-color: rgba(80, 80, 80, 0.556);
 }
 
 .afc {
-  color: red;
+  color: rgba(234, 4, 4, 0.924);
+  text-shadow: black 0.5px 0.5px 0.5px;
+  background-color: rgba(80, 80, 80, 0.556);
+}
+
+.team {
+  background-color: rgba(100, 100, 100, 0.615);
   text-shadow: black 1px 1px 1px;
+  color: rgba(224, 224, 224, 0.93);
 }
